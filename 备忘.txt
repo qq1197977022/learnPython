@@ -1,0 +1,19 @@
+itcast/02_python核心编程/04_web服务器案例/day01/demo11_静态web服务器.py
+    1.正则表达式未懂,
+    2.返回NoneType....
+        1.http://localhost/abc
+        2.http://localhost/index.html 多标签打开
+
+itcast/02_python核心编程/04_web服务器案例/day02/demo02_PyCharm配置连接Ubuntu.py
+        # 配置完成, 但是解释器没有SFTP模式???
+
+
+
+
+
+
+
+
+
+
+
