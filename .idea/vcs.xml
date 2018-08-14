@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/walnut/demo/Python-Game" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/walnut/demo/catRunFast" vcs="Git" />
   </component>
 </project>

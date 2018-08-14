@@ -1,23 +1,25 @@
+def f0():
+    print(1)
+    print(2)
+    print(3)
+
+
 def f1():   # 选择结构
     pass
-    # if 2 > 1:
-    #     print('2大于1')
-
-    # if 2 > 1:
-    #     print('2大于1')
-    # else:
-    #     print('1大于2')
-
-    # if 2 > 1:
-    #     print('2大于1')
-    # elif 1 > 2:
-    #     print('1大于2')
-    # else:
-    #     print('1等于2')
-
-    # print(1)
-    # print(2)
-    # print(3)
+    num1 = int(input('num1 = '))
+    num2 = int(input('num2 = '))
+    # 两路分支
+    if num1 > num2:
+        print(f'{num1} > {num2}')
+    else:
+        print(f'{num2} > {num1}')
+    # 多路分支
+    if num1 > num2:
+        print(f'{num1} > {num2}')
+    elif num1 < num2:
+        print(f'{num1} < {num2}')
+    else:
+        print(f'{num1} = {num2}')
 
 
 def f2():
@@ -50,12 +52,50 @@ def f4():
     for i in range(1, 10):
         for j in range(1, i+1):
             print(f'{j}*{i}={i*j}\t', end='')
-        print()
+        else:
+            print()
+
+
+def f5():
+    # for i in range(3):
+    #     print(i)
+    # else:
+    #     print('over')
+
+    # for i in range(5):
+    #     if i == 3:
+    #         break
+    #     print(i)
+    # else:
+    #     print('over...')
+
+    # for i in range(5):
+    #     if i == 3:
+    #         continue
+    #     print(i)
+    # else:
+    #     print('over...')
+
+    # break和continue关键字
+    for i in range(5):
+        if i == 4:
+            continue
+        print(i)
+    else:
+        print('------over------')
+
+
+def f6():
+    pass
+    for i in range(0, 5, 2):
+        print(i)
 
 
 if __name__ == '__main__':
-    pass
-    # f1()
+    # f0()
+    f1()
     # f2()
     # f3()
-    f4()
+    # f4()
+    # f5()
+    # f6()
