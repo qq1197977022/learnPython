@@ -13,7 +13,7 @@ def get_file_content(filePath): # 读取图片
         return fp.read()
 
 
-image = get_file_content('img/1.png')
+image = get_file_content('img/0.png')
 
 """ 调用通用文字识别（高精度版） """
 res = client.basicAccurate(image)
