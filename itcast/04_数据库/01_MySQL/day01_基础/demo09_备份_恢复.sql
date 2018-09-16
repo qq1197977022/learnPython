@@ -1,6 +1,6 @@
 /*
 一.备份
-  1.mysqldump -u root -p (database [table_list]) > path\back.sql
+  1.mysqldump -u root -p (database [table_list]) > path\backup.sql
   2.备份方式
     1.整库备份
     2.表备份
@@ -11,8 +11,8 @@
 
 /*
 二.恢复
-  1.方式一: mysql -u root -p database < path\back.sql
-  2.方式二: 登录 ---> source path\back.sql
+  1.方式一: mysql -u root -p database < path\backup.sql
+  2.方式二: 登录 ---> source path\backup.sql
   3.恢复方式
     1.表恢复
     2.库恢复

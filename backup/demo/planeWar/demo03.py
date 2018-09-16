@@ -5,7 +5,7 @@ from pygame.locals import *
 class SurfWindow(object):
     def __init__(self, size_tup):
         self.surf_window = pygame.display.set_mode(size_tup)  # 调用用于控制屏幕和窗口的display模块,创建一个display surface
-        self.surf_back = pygame.image.load('img/background.png')  # 加载图片
+        self.surf_back = pygame.image.load('img/background2.png')  # 加载图片
 
         pygame.mixer.init()
         pygame.mixer.music.load('music/music_back1.mp3')

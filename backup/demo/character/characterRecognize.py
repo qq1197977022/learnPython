@@ -8,7 +8,7 @@ SECRET_KEY = 'rxiE9hSsP1FfzH8lISFiEi6CrDa3bVZ7'
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
 
-def get_file_content(filePath): # 读取图片
+def get_file_content(filePath):    # 读取图片
     with open(filePath, 'rb') as fp:
         return fp.read()
 

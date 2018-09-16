@@ -19,5 +19,6 @@ if __name__ == '__main__':
     # f2()
     # pw = pow(2, 3, 3)
     # print(pw)
+
     print(2**2)
     print(2**3)
